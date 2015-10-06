@@ -9,7 +9,7 @@ with open(os.path.join(here, 'README.rst')) as f:
 
 setup(
     name='score.slang',
-    version='0.3.2',
+    version='0.3.3',
     description='Slang is the markup language of The SCORE Framework',
     long_description=README,
     author='strg.at',
@@ -17,6 +17,8 @@ setup(
     url='http://score-framework.org',
     keywords='score framework web slang markup parser',
     packages=['score.slang'],
+    namespace_packages=['score'],
+    zip_safe=False,
     license='LGPL',
     classifiers=[
         'Development Status :: 3 - Alpha',
