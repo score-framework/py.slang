@@ -116,7 +116,8 @@ def p_arg_continuation(p):
 
 
 def p_argpart_text(p):
-    'argpart : TEXT'
+    '''argpart : TEXT
+               | NEWLINE'''
     p[0] = Text(p.parser.docdef, p.slice[1], p[1])
 
 
