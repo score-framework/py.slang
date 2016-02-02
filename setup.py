@@ -16,7 +16,7 @@ setup(
     author_email='score@strg.at',
     url='http://score-framework.org',
     keywords='score framework web slang markup parser',
-    packages=['score.slang'],
+    packages=['score', 'score.slang'],
     namespace_packages=['score'],
     zip_safe=False,
     license='LGPL',
