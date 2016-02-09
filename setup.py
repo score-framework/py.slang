@@ -9,7 +9,7 @@ with open(os.path.join(here, 'README.rst')) as f:
 
 setup(
     name='score.slang',
-    version='0.3.5',
+    version='0.3.6',
     description='Slang is the markup language of The SCORE Framework',
     long_description=README,
     author='strg.at',
